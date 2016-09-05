@@ -1,28 +1,40 @@
-name: thekay
-favicon: null
-layout_spectrum: 0.30206898879259825
-typography_spectrum: 0.8135845917277038
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.1531915
+  brandStrength: 0.6932140532881021
+  lightness: 0.7255319
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.6932140532881021
-  lightness: 0.19446633337065578
-  saturation: 0.5244664628989995
-  rhythmicContrast: 0.508850320475176
-purpose: []
+  rhythmicContrast: 0.2425532
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: thekay
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 1
+layout_spectrum: 0.2021277
